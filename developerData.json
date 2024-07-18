@@ -1,0 +1,23 @@
+[
+    {
+        "name" :"ahmed nayel al darabee",
+        "email" : "seahmednail@gmail.com",
+        "major" : "software engineer",
+        "life-principle" : "Software Development: The process of designing, coding, testing, and maintaining applications or systems to meet specific requirements."
+    },{
+        "name" :"mousa khallel mousa mohammed",
+        "email" : "semousakhallel@gmail.com",
+        "major" : "Project Management",
+        "life-principle" : "Involves planning, scheduling, and overseeing software projects to ensure timely and budget-compliant delivery."
+    },{
+        "name" :"mohammed mohsin hellal",
+        "email" : "seyazeedail@gmail.com",
+        "major" : "Requirements Analysis",
+        "life-principle" : "Gathering and documenting user needs and system requirements to guide the software development process."
+    },{
+        "name" :"yazeed ali malek al fayoumi",
+        "email" : "seyazeedail@gmail.com",
+        "major" : "Quality Assurance",
+        "life-principle" : " Ensuring software meets quality standards through systematic testing and validation to identify and fix defects."
+    }
+]

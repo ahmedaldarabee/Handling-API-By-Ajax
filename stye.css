@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(45deg,#212121,#615f5f);
+    min-height: 100vh;
+}
+
+::selection {
+    background-color: #615f5f;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container .card {
+    background-color: #201b1b;
+    color: #c0baba;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 420px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.container .card:hover {
+    transform: scale(1.1) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -moz-transform: scale(1.1) rotate(5deg);
+    -ms-transform: scale(1.1) rotate(5deg);
+    -o-transform: scale(1.1) rotate(5deg);
+
+    box-shadow: 0 2px 6px 5px #c0baba;
+}
+.container .card .cover-image img {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+}
+.container .card .img-section {
+    position: relative;
+}
+.container .card .img-section img {
+    width: 170px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translate(5px,-120px);
+    -webkit-transform: translate(5px,-120px);
+    -moz-transform: translate(5px,-120px);
+    -ms-transform: translate(5px,-120px);
+    -o-transform: translate(5px,-120px);
+}
+.container .card .img-section::before {
+    content: '';
+    width: 100%;
+    height: 90px;
+    background-color: #201b1b;
+    position: absolute;
+    top: -25%;
+    transform: skew(0,10deg);
+}
+.container .card .info-section {
+    margin-top: -90px;
+    padding-left: 10px;
+}
+.container .card .info-section h3 {
+    text-transform: capitalize;
+}
+
+.container .card .info-section span {
+    font-size: 20px;
+    color: #a2a2a2;
+}
+.container .card .info-section #major{
+    color: #029AD9;
+    margin-bottom: 15px;
+}
+.container .card .info-section #principle {
+    margin-top: 15px;
+}
+.container .card .media {
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .card .media a {
+    color: white;
+    background-color: #029AD9;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
